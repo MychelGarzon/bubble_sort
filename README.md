@@ -1,9 +1,8 @@
-# React + Vite
+## BUBBLE SORTING
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# bubble_sort
+This code implements the bubble sorting alghoritm.
+Initially, an array with 5 empty strings is created and updated using the useState hook.
+The changeHandler function takes the index and the value that is in the array, updating the array with parsed integer values from user input.
+The bubbleSorting function compares adjacent elements and swaps them if needed.
+After sorting is complete, it updates the array using the setNumbersArray function.
+All of this is triggered by clicking the "SORT" button.
